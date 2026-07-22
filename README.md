@@ -7,7 +7,7 @@
 My personal Arch Linux setup using Hyprland. Built for aesthetics, performance, and productivity.
 
 <p align="center">
-  <img width="100%" alt="Hyprland Desktop Showcase" src="[https://github.com/user-attachments/assets/ebcdcf6e-3c1f-41a6-b11c-ebadb43cb0b1](https://github.com/user-attachments/assets/ebcdcf6e-3c1f-41a6-b11c-ebadb43cb0b1)" />
+  <img width="100%" alt="Yumei Desktop Rice" src="[https://github.com/user-attachments/assets/ebcdcf6e-3c1f-41a6-b11c-ebadb43cb0b1](https://github.com/user-attachments/assets/ebcdcf6e-3c1f-41a6-b11c-ebadb43cb0b1)" />
 </p>
 
 ---
