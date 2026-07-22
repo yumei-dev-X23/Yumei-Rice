@@ -19,7 +19,6 @@ My personal Arch Linux setup using Hyprland. Built for aesthetics, performance, 
 1. Install Dependencies
 
 Before applying the dotfiles, make sure your system is up to date and install the necessary packages from the official Arch repositories:
-Bash
 
 sudo pacman -Syu
 sudo pacman -S hyprland hyprpaper waybar kitty nautilus zsh blueman bluez bluez-utils swaync fastfetch ttf-jetbrains-mono-nerd polkit polkit-gnome
@@ -27,14 +26,11 @@ sudo pacman -S hyprland hyprpaper waybar kitty nautilus zsh blueman bluez bluez-
 2. Install Oh My Zsh
 
 Install the Oh My Zsh framework to get the shell looking exactly like the screenshots:
-Bash
-
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 3. Apply the Dotfiles
 
 Clone this repository and copy the configurations to your home directory:
-Bash
 
 git clone https://github.com/yumei-dev-X23/Yumei-Rice.git
 cd Yumei-Rice
