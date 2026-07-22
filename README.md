@@ -1,4 +1,4 @@
-# Hyprland Yumei-Dev Rice
+# 🐧 Hyprland Yumei-Dev Rice
 
 ![Arch Linux](https://img.shields.io/badge/OS-Arch_Linux-33aadd?style=for-the-badge&logo=archlinux&logoColor=white)
 ![Hyprland](https://img.shields.io/badge/WM-Hyprland-00a896?style=for-the-badge&logo=hyprland&logoColor=white)
@@ -22,31 +22,33 @@ My personal Arch Linux setup using Hyprland. Built for aesthetics, performance, 
 - 💻 **Kitty & Nautilus** → Fast GPU-accelerated terminal and reliable file manager.
 
 ---
-## 📦 Installation By Script
 
-Installing this rice is now fully automated! Just clone the repository and run the install script.
+## 📦 Automated Installation (Recommended)
+
+Installing this rice is fully automated! Just clone the repository, give execution permissions to the script, and run it:
 
 ```bash
-git clone [https://github.com/yumei-dev-X23/Yumei-Rice.git](https://github.com/yumei-dev-X23/Yumei-Rice.git)
+git clone https://github.com/yumei-dev-X23/Yumei-Rice.git
 cd Yumei-Rice
 chmod +x install.sh
 ./install.sh
 ```
-## 📦 Installation
+
+*(The script will automatically update packages, install all dependencies, configure Oh My Zsh, and place all dotfiles in your home directory).*
+
+<details>
+<summary><b>🛠️ Manual Installation (Click to expand)</b></summary>
 
 ### 1. Install Dependencies
 
-Before applying the dotfiles, make sure your system is up to date and install the necessary packages from the official Arch repositories:
+Make sure your system is up to date and install the necessary packages from official Arch repositories and AUR:
 
 ```bash
 sudo pacman -Syu
 sudo pacman -S hyprland hyprpaper waybar kitty nautilus zsh blueman bluez bluez-utils swaync fastfetch ttf-jetbrains-mono-nerd polkit polkit-gnome flameshot
-yay -S zen-browser-bin
 ```
 
 ### 2. Install Oh My Zsh
-
-Install the Oh My Zsh framework to get the shell looking exactly like this:
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -54,16 +56,16 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ### 3. Apply the Dotfiles
 
-Clone this repository and copy the configurations to your home directory:
-
 ```bash
 git clone https://github.com/yumei-dev-X23/Yumei-Rice.git
 cd Yumei-Rice
 
-# Copy the configuration files
+# Copy configuration files
 cp -r .config/* ~/.config/
 cp .zshrc ~/
 ```
+
+</details>
 
 ---
 
@@ -83,7 +85,8 @@ Here are the essential default keybindings to get you started (configured in `~/
 | **Take Screenshot (Flameshot)** | `Print Screen` |
 | **Reload Waybar** | `SUPER + SHIFT + R` |
 | **Exit / Shutdown Menu** | `SUPER + Escape` |
-*(Note: Please verify these shortcuts match  actual `hyprland.conf` file)*
+
+*(Note: Please verify these shortcuts match your actual `hyprland.conf` file)*
 
 ---
 
