@@ -59,16 +59,21 @@ cp .zshrc ~/
 
 ## ⌨️ Basic Keybindings
 
-Here are some default keybindings to get you started (edit these in `~/.config/hypr/hyprland.conf`):
+Here are the essential default keybindings to get you started (configured in `~/.config/hypr/hyprland.conf`):
 
 | Action | Shortcut |
 | :--- | :--- |
-| **Open Terminal (Kitty)** | `SUPER + Q` |
-| **Open File Manager** | `SUPER + E` |
-| **Close Window** | `SUPER + C` |
-| **Exit Hyprland** | `SUPER + M` |
-
-*(Note: Please verify these shortcuts match your actual `hyprland.conf` file)*
+| **Open Terminal (Kitty)** | `SUPER + Enter` |
+| **Open File Manager (Nautilus)** | `SUPER + E` |
+| **App Launcher (hyprlauncher)** | `SUPER + R` |
+| **Open Web Browser (Zen Browser)** | `SUPER + B` |
+| **Close Window** | `SUPER + Q` |
+| **Toggle Floating Mode** | `SUPER + Space` |
+| **Toggle Fullscreen** | `SUPER + F` |
+| **Take Screenshot (Flameshot)** | `Print Screen` |
+| **Reload Waybar** | `SUPER + SHIFT + R` |
+| **Exit / Shutdown Menu** | `SUPER + Escape` |
+*(Note: Please verify these shortcuts match  actual `hyprland.conf` file)*
 
 ---
 
