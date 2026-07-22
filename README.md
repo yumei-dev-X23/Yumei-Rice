@@ -1,13 +1,3 @@
-Paso 1: Crear y editar el archivo
-
-Ejecuta este comando en tu terminal dentro de ~/Yumei-hyprland:
-Bash
-
-nano README.md
-
-Paso 2: Pegar el contenido
-
-Copia exactamente las siguientes líneas y pégalas dentro del editor:
 🐧 Hyprland Yumei-Dev Rice
 
 My personal Arch Linux setup using Hyprland. Built for aesthetics, performance, and productivity.
