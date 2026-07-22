@@ -1,4 +1,4 @@
-# 🐧 Hyprland Yumei-Dev Rice
+# Hyprland Yumei-Dev Rice
 
 ![Arch Linux](https://img.shields.io/badge/OS-Arch_Linux-33aadd?style=for-the-badge&logo=archlinux&logoColor=white)
 ![Hyprland](https://img.shields.io/badge/WM-Hyprland-00a896?style=for-the-badge&logo=hyprland&logoColor=white)
@@ -31,7 +31,8 @@ Before applying the dotfiles, make sure your system is up to date and install th
 
 ```bash
 sudo pacman -Syu
-sudo pacman -S hyprland hyprpaper waybar kitty nautilus zsh blueman bluez bluez-utils swaync fastfetch ttf-jetbrains-mono-nerd polkit polkit-gnome
+sudo pacman -S hyprland hyprpaper waybar kitty nautilus zsh blueman bluez bluez-utils swaync fastfetch ttf-jetbrains-mono-nerd polkit polkit-gnome flameshot
+yay -S zen-browser-bin
 ```
 
 ### 2. Install Oh My Zsh
