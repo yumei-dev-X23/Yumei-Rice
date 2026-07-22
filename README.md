@@ -22,7 +22,16 @@ My personal Arch Linux setup using Hyprland. Built for aesthetics, performance, 
 - 💻 **Kitty & Nautilus** → Fast GPU-accelerated terminal and reliable file manager.
 
 ---
+## 📦 Installation By Script
 
+Installing this rice is now fully automated! Just clone the repository and run the install script.
+
+```bash
+git clone [https://github.com/yumei-dev-X23/Yumei-Rice.git](https://github.com/yumei-dev-X23/Yumei-Rice.git)
+cd Yumei-Rice
+chmod +x install.sh
+./install.sh
+```
 ## 📦 Installation
 
 ### 1. Install Dependencies
