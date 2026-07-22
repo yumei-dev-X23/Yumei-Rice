@@ -1,0 +1,67 @@
+####################################
+######## HYPRLAND MENOTAYME ########
+####################################
+
+
+
+
+# LINGUAGEM DO TECLADO
+input {
+    kb_layout = br
+    kb_variant = abnt2
+}
+
+#APLICATIVOS PADROES EXECUTAVEIS
+$mainMod = SUPER
+$terminal = kitty
+$fileManager = dolphin
+$menu = hyprlauncher
+
+###########################
+######## KEYBINDS #########
+###########################
+
+
+# KEYBINDS ESSENCIAIS
+bind = $mainMod, Return, exec, $terminal
+bind = $mainMod, Q, killactive,
+bind = $mainMod, Escape, exec, command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch exit
+bind = $mainMod, E, exec, $fileManager
+bind = $mainMod, V, togglefloating,
+bind = $mainMod, R, exec, $menu
+bind = $mainMod, F, fullscreen
+bind = $mainMod, B, exec, firefox
+
+# TROCAR FOCO DE JANELAS PELA SETINHA
+bind = $mainMod, left, movefocus, l
+bind = $mainMod, right, movefocus, r
+bind = $mainMod, up, movefocus, u
+bind = $mainMod, down, movefocus, d
+
+# TROCAR WORKSPACE
+bind = $mainMod, KP_End, workspace, 1
+bind = $mainMod, KP_Down, workspace, 2
+bind = $mainMod, KP_Next, workspace, 3
+bind = $mainMod, KP_Left, workspace, 4
+bind = $mainMod, KP_Begin, workspace, 5
+bind = $mainMod, KP_Right, workspace, 6
+bind = $mainMod, KP_Home, workspace, 7
+bind = $mainMod, KP_Up, workspace, 8
+bind = $mainMod, KP_Prior, workspace, 9
+
+# MOVER JANELAS WORKSPACES
+bind = $mainMod SHIFT, KP_End, movetoworkspace, 1
+bind = $mainMod SHIFT, KP_Down, movetoworkspace, 2
+bind = $mainMod SHIFT, KP_Next, movetoworkspace, 3
+bind = $mainMod SHIFT, KP_Left, movetoworkspace, 4
+bind = $mainMod SHIFT, KP_Begin, movetoworkspace, 5
+bind = $mainMod SHIFT, KP_Right, movetoworkspace, 6
+bind = $mainMod SHIFT, KP_Home, movetoworkspace, 7
+bind = $mainMod SHIFT, KP_Up, movetoworkspace, 8
+bind = $mainMod SHIFT, KP_Prior, movetoworkspace, 9
+
+# mouse nas janelas
+bindm = SUPER, mouse:272, movewindow
+bindm = SUPER, mouse:273, resizewindow
+
+ 
